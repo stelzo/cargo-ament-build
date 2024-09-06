@@ -5,7 +5,7 @@ authors = ["Nikolai Morin <nnmmgit@gmail.com>"]
 edition = "2021"
 license = "Apache-2.0"
 description = "Cargo plugin for use with colcon workspaces"
-repository = "https://github.com/ros2-rust/cargo-ament-build"
+repository = "https://github.com/stelzo/cargo-ament-build"
 readme = "README.md"
 categories = ["development-tools::cargo-plugins"]
 keywords = ["ros2", "colcon", "ament"]
@@ -31,4 +31,4 @@ ci = "github"
 # The installers to generate for each app
 installers = []
 # Target platforms to build apps for (Rust target-triple syntax)
-targets = ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "x86_64-pc-windows-msvc"]
+targets = ["aarch64-apple-darwin", "x86_64-apple-darwin", "x86_64-unknown-linux-gnu", "aarch64-unknown-linux-gnu", "x86_64-pc-windows-msvc"]
